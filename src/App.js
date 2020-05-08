@@ -1,6 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
+import path from 'path';
+
 import './App.css';
+var uiModules = ['react-flip-counter'],
+    includes = uiModules.reduce((res, name) => {
+      res.push(path.resolve('.', 'node_modules/' + name));
+
+      return res;
+    }, [path.resolve('.', 'src/')]);
+    
+import Counter from 'react-flip-counter';
 
 function App() {
   return (
@@ -10,14 +20,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Counter
+    onStop={() => alert('stopped')}
+    stop={new Date('Wed Nov 15 2020 15:57:38 GMT+0300 (MSK)')}/>
       </header>
     </div>
   );

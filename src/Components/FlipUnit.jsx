@@ -6,7 +6,7 @@ class AnimatedCard extends React.Component {
     // console.log('AnimatedCard', position, digit, animation);
     return (
       <div className={`flipCard ${position} ${animation}`}>
-        <span>{digit || 0}</span>
+        <span>{digit || '00'}</span>
       </div>
     );
   }
@@ -18,7 +18,7 @@ class StaticCard extends React.Component {
     // console.log('StaticCard', position, digit);
     return (
       <div className={position}>
-        <span>{digit || 0}</span>
+        <span>{digit || '00'}</span>
       </div>
     );
   }

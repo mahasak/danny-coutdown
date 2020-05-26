@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div id="root">
       <Navigation title="Dan's Delivery Countdown" />
-      <Body date="2020-07-29 00:00:00"/>
+      <Body date="2020-07-17 00:00:00"/>
       <Footer
         details="Vibhavadi Hospital, Tel. +66 2 561 1111 "
         address="51/3, Ngam Wong Wan Rd., Lat Yao, Bangkok 10900 Thailand"

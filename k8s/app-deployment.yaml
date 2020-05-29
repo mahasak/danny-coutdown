@@ -1,0 +1,26 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: dan-countdown
+  labels:
+    app: dan-countdown
+spec:
+  selector:
+    matchLabels:
+      app: dan-countdown
+      tier: backend
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: dan-countdown
+        tier: backend
+    spec:
+      containers:
+        - image: gcr.io/bigbears-io/dan-countdown:1.0.0
+          name: dan-countdown
+          ports:
+            - containerPort: 3000
+              name: dan-countdown
+      restartPolicy: Always

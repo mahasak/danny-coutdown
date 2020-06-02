@@ -15,13 +15,11 @@ jobs:
       - name: Setup Google Cloud Params
         uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
         with:
-          version: '286.0.0'
           service_account_email: ${{ secrets.GCLOUD_EMAIL }}
           service_account_key: ${{ secrets.GCLOUD_AUTH }}
           project_id: ${{ secrets.GCLOUD_PROJECT }}
       
       - name: Build
-        run: |-
-          gcloud builds submit \
+        run: gcloud builds submit \
             --quiet \
             --tag "gcr.io/${{ secrets.GCLOUD_PROJECT }}/${{ secrets.GCLOUD_APP_NAME }}"

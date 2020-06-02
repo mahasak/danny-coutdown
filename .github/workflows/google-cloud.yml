@@ -20,6 +20,4 @@ jobs:
           project_id: ${{ secrets.GCLOUD_PROJECT }}
       
       - name: Build
-        run: gcloud builds submit \
-            --quiet \
-            -t "gcr.io/${{ secrets.GCLOUD_PROJECT }}/${{ secrets.GCLOUD_APP_NAME }}"
+        run: gcloud builds submit --quiet -t "gcr.io/${{ secrets.GCLOUD_PROJECT }}/${{ secrets.GCLOUD_APP_NAME }}"

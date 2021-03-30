@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.288b75de.chunk.css",
+    "main.js": "/static/js/main.39771b35.chunk.js",
+    "main.js.map": "/static/js/main.39771b35.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e8c2719e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e8c2719e.js.map",
+    "static/js/2.2acb32a8.chunk.js": "/static/js/2.2acb32a8.chunk.js",
+    "static/js/2.2acb32a8.chunk.js.map": "/static/js/2.2acb32a8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2390313092dab46d34c2157d38b419db.js": "/precache-manifest.2390313092dab46d34c2157d38b419db.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.288b75de.chunk.css.map": "/static/css/main.288b75de.chunk.css.map",
+    "static/js/2.2acb32a8.chunk.js.LICENSE.txt": "/static/js/2.2acb32a8.chunk.js.LICENSE.txt",
+    "static/media/baby-newborn.svg": "/static/media/baby-newborn.c693aef2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8c2719e.js",
+    "static/js/2.2acb32a8.chunk.js",
+    "static/css/main.288b75de.chunk.css",
+    "static/js/main.39771b35.chunk.js"
+  ]
+}

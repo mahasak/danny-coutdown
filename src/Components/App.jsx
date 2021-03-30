@@ -7,7 +7,7 @@ import { Copyright } from './Copyright'
 const App = () => {
   return (
     <div id="root">
-      <Navigation title="Dan's Delivery Countdown" />
+      <Navigation title="Darwin's Delivery Countdown" />
       <Body date="2020-07-17 00:00:00"/>
       <Footer
         details="Vibhavadi Hospital, Tel. +66 2 561 1111 "

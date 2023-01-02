@@ -10,7 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-flip-counter": "^0.4.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "x-react-flipclock": "^0.1.184153"
   },
   "scripts": {
